@@ -8,4 +8,4 @@ pd.set_option('display.max_columns', None)
 print(sales_table)
 
 # revenues
-revenues = sales_table[['Store ID']]
+revenues = sales_table[['Store ID', 'Final value']]
