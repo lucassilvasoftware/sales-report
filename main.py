@@ -8,4 +8,9 @@ pd.set_option('display.max_columns', None)
 print(sales_table)
 
 # revenues
-revenues = sales_table[['Store ID', 'Final value']]
+revenues = sales_table[['Store ID', 'Final value']].groupby('Store ID').sum()
+print(revenues)
+
+# number of products sold per store
+amount = sales_table[['Store ID', 'Amount']].groupby('Store ID')
+print(amount)
