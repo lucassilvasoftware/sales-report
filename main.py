@@ -17,5 +17,5 @@ print(amount)
 
 print('-' * 50)
 # average ticket per product
-average_ticket = revenues['Final value', ] / amount['Amount']
+average_ticket = revenues['Final value'] / amount['Amount']
 print(average_ticket)
