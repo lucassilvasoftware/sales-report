@@ -12,10 +12,10 @@ revenues = sales_table[['Store ID', 'Final value']].groupby('Store ID').sum()
 print(revenues)
 
 # number of products sold per store
-amount = sales_table[['Store ID', 'Amount']].groupby('Store ID')
-print(amount)
+amount_sales = sales_table[['Store ID', 'Amount']].groupby('Store ID')
+print(amount_sales)
 
 print('-' * 50)
 # average ticket per product
-average_ticket = revenues['Final value'] / amount['Amount']
+average_ticket = revenues['Final value'] / amount_sales['Amount']
 print(average_ticket)
