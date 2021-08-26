@@ -24,10 +24,13 @@ print(average_ticket)
 # send email with report
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'To address'
+mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
 mail.Subject = 'Message subject'
-mail.Body = 'Message body'
-mail.HTMLBody = '<h2>HTML Message body</h2>'
+mail.Body = 'Sales report'
+mail.HTMLBody = '''
 
+Below there is the sales report.
+
+'''
 
 mail.send
