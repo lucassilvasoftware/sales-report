@@ -1,3 +1,4 @@
+import win32com.client as win32
 import pandas as pd
 
 # import the database
@@ -19,3 +20,12 @@ print('-' * 50)
 # average ticket per product
 average_ticket = (revenues['Final value'] / amount_sales['Amount']).to_frame()
 print(average_ticket)
+
+# send email with report
+outlook = win32.Dispatch('outlook.application')
+mail = outlook.CreateItem(0)
+mail.To = 'To address'
+mail.Subject = 'Message Subject'
+mail.HTMLBody = '<h2>HTML BODY</h2>'
+
+mail.send
