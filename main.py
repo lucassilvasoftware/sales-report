@@ -25,7 +25,9 @@ print(average_ticket)
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
 mail.To = 'To address'
-mail.Subject = 'Message Subject'
-mail.HTMLBody = '<h2>HTML BODY</h2>'
+mail.Subject = 'Message subject'
+mail.Body = 'Message body'
+mail.HTMLBody = '<h2>HTML Message body</h2>'
+
 
 mail.send
