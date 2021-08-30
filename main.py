@@ -29,8 +29,16 @@ mail.Subject = 'Message subject'
 mail.Body = 'Sales report'
 mail.HTMLBody = '''
 
-Below there is the sales report.
+Below is the sales report for each store.
 
+Revenues: 
+{}
+
+sold amount:
+{}
+
+average ticket of products in each store:
+{}
 '''
 
 mail.send
