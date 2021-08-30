@@ -39,6 +39,8 @@ sold amount:
 
 average ticket of products in each store:
 {}
+
+Sales report developed by Lucas Rebouças.
 '''
 
 mail.send
