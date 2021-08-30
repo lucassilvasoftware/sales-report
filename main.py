@@ -44,3 +44,4 @@ Sales report developed by Lucas Rebouças.
 '''
 
 mail.send
+print('Email sent')
