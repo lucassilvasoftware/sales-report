@@ -42,4 +42,5 @@ mail.HTMLBody = f'''
 '''
 
 mail.send
+
 print('Email sent')
