@@ -27,17 +27,18 @@ mail = outlook.CreateItem(0)
 mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
 mail.Subject = 'Sales Report'
 mail.HTMLBody = f'''
-
 <p>Below is the sales report for each store.<p>
 
 <p>Revenues:</p>
+{revenues.to_html(formatters={'Final Value': 'R${:,.2f}'.format})}
 
 <p>sold amount:</p>
+{amount_sales.to_html()}
 
 <p>average ticket of products in each store:</p>
+{average_ticket.to_html(formatters={'Average Ticket': 'R${:,.2f}'.format})}
 
 <p>Sales report developed by Lucas Rebouças.</p>
-
 '''
 
 mail.send
