@@ -1,5 +1,5 @@
-import win32com.client as win32
 import pandas as pd
+import win32com.client as win32
 
 # import the database
 sales_table = pd.read_excel('./excel spreadsheet/sales.xlsx')
