@@ -19,6 +19,7 @@ print(amount_sales)
 print('-' * 50)
 # average ticket per product
 average_ticket = (revenues['Final value'] / amount_sales['Amount']).to_frame()
+average_ticket = average_ticket.rename(columns={0: 'Average Ticket'})
 print(average_ticket)
 
 # send email with report
