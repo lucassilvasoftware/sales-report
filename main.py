@@ -1,5 +1,5 @@
 import pandas as pd
-import win32com.client as win32client
+import win32com.client
 
 # import the database
 sales_table = pd.read_excel('./excel spreadsheet/sales.xlsx')
@@ -22,7 +22,7 @@ average_ticket = (revenues['Final value'] / amount_sales['Amount']).to_frame()
 print(average_ticket)
 
 # send email with report
-outlook = win32client.Dispatch('outlook.application')
+outlook = win32com.client.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
 mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
 mail.Subject = 'Sales Report'
