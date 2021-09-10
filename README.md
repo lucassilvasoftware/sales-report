@@ -39,6 +39,8 @@ Software designed to read sales tables and email the sales report containing the
 
 ## Email Template:
 
-* The software identifies and shows through SMS the salesperson who reached the goal and also how much he made in sales
+* The software reads the sales table and generates a report automatically, sending it by email.
 
-![git twilio message sales goal](https://user-images.githubusercontent.com/54152996/129395626-f3c77b74-cac6-444c-99d4-ffc46d5573ef.jpeg)
+![image](https://user-images.githubusercontent.com/54152996/132928289-37d50a9c-b926-4995-9c8f-6c53057e15ab.png)
+
+![image](https://user-images.githubusercontent.com/54152996/132928303-e0d80d12-7f3f-428b-bb86-b84af3024720.png)
