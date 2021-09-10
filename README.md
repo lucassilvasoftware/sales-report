@@ -10,14 +10,14 @@ Software designed to read sales tables and email the sales report containing the
   <tr>
     <td>Technology</td>
     <td>Python</td>
-    <td>Outlook</td>
     <td>Pandas</td>
+    <td>Outlook</td>
   </tr>
   <tr>
     <td>Version</td>
     <td>3.9.7</td>
-    <td>2019 Version 2108</td>
     <td>1.3.2</td>
+    <td>2019 Version 2108</td>
   </tr>
 </table>
 
