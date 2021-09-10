@@ -28,34 +28,14 @@ Software designed to read sales tables and email the sales report containing the
 
    ![a](https://user-images.githubusercontent.com/54152996/132927610-efa770c2-9b8f-4e45-bc1f-8dffefc5fc11.jpg)
 
-3. Create a free [Twilio](https://www.twilio.com/try-twilio) account; 
-4. Get your account_sid, auth_token and your trial phone number;
+3. Enter your email to receive the report;
      ```
-    # Your Account SID from twilio.com/console
-    account_sid = "W"
-    
-    # Your Auth Token from twilio.com/console
-    auth_token = "X"
-    
-    # Trial phone number
-    from_="Z",
+    # Enter your email
+    mail.To = 'X'
     ```    
-5. add your phone number to receive the SMS;
-    ```
-    if (sales_table['Sales'] > 55000).any():
-        seller = sales_table.loc[sales_table['Sales']
-                                > 55000, "Seller"].values[0]
-        sales = sales_table.loc[sales_table['Sales']
-                                > 55000, "Sales"].values[0]
-    ```
-6. Update the sales target value in code;
-    ```
-    # Your phone number
-    to='Y',
-    ```    
-7. Run.
+4. Run.
 
-## SMS Template:
+## Email Template:
 
 * The software identifies and shows through SMS the salesperson who reached the goal and also how much he made in sales
 
