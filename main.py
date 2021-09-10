@@ -31,13 +31,13 @@ mail.HTMLBody = f'''
 <p>Below is the sales report for each store.<p>
 
 <p>Revenues:</p>
-{revenues.to_html(formatters={'Final Value': 'R${:,.2f}'.format})}
+{revenues.to_html(formatters={'Total Billing': 'R$ {:,.2f}'.format})}
 
-<p>sold amount:</p>
+<p>Sold Amount:</p>
 {amount_sales.to_html()}
 
 <p>average ticket of products in each store:</p>
-{average_ticket.to_html(formatters={'Average Ticket': 'R${:,.2f}'.format})}
+{average_ticket.to_html(formatters={'Average Ticket': 'R$ {:,.2f}'.format})}
 
 <p>Sales report developed by Lucas Rebouças.</p>
 '''
