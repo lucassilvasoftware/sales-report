@@ -24,9 +24,9 @@ Software designed to read sales tables and email the sales report containing the
 ## How to run the application:
 
 1. Install all dependencies;
-2. Add your sales sheets for each month;
+2. Add your sales sheet;
 
-    ![1](https://user-images.githubusercontent.com/54152996/129397022-28d29576-2695-40a7-9e8f-3fc5073fa48c.jpg)
+   ![a](https://user-images.githubusercontent.com/54152996/132927610-efa770c2-9b8f-4e45-bc1f-8dffefc5fc11.jpg)
 
 3. Create a free [Twilio](https://www.twilio.com/try-twilio) account; 
 4. Get your account_sid, auth_token and your trial phone number;
