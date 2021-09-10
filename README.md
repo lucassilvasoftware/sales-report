@@ -10,16 +10,14 @@ Software designed to read sales tables and email the sales report containing the
   <tr>
     <td>Technology</td>
     <td>Python</td>
-    <td>Openpyxl</td>
+    <td>Outlook</td>
     <td>Pandas</td>
-    <td>Twilio</td>
   </tr>
   <tr>
     <td>Version</td>
-    <td>3.9.6</td>
-    <td>3.0.7</td>
-    <td>1.2.4</td>
-    <td>6.63.0</td>
+    <td>3.9.7</td>
+    <td>2019 Version 2108</td>
+    <td>1.3.2</td>
   </tr>
 </table>
 
