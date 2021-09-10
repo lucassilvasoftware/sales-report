@@ -25,7 +25,7 @@ print(average_ticket)
 # send email with report
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
+mail.To = 'X'
 mail.Subject = 'Sales Report'
 mail.HTMLBody = f'''
 <p>Below is the sales report for each store.<p>
