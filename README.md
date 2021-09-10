@@ -24,7 +24,7 @@ Software designed to read sales tables and email the sales report containing the
 ## How to run the application:
 
 1. Install all dependencies;
-2. Add your sales sheet;
+2. Add your sale sheet;
 
    ![a](https://user-images.githubusercontent.com/54152996/132927610-efa770c2-9b8f-4e45-bc1f-8dffefc5fc11.jpg)
 
