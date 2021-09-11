@@ -11,7 +11,7 @@ Software designed to read sales tables and email the sales report containing the
     <td>Technology</td>
     <td>Python</td>
     <td>Pandas</td>
-    <td>win32</td>
+    <td>pywin32</td>
     <td>Outlook</td>
   </tr>
   <tr>
