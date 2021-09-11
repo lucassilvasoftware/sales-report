@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 print(sales_table)
 
 # revenues
-revenues = sales_table[['Store ID', 'Final value']].groupby('Store ID').sum()
+revenues = sales_table[['Store ID', 'Total Billing']].groupby('Store ID').sum()
 print(revenues)
 
 # number of products sold per store
@@ -18,14 +18,15 @@ print(amount_sales)
 
 print('-' * 50)
 # average ticket per product
-average_ticket = (revenues['Final value'] / amount_sales['Amount']).to_frame()
+average_ticket = (revenues['Total Billing'] /
+                  amount_sales['Amount']).to_frame()
 average_ticket = average_ticket.rename(columns={0: 'Average Ticket'})
 print(average_ticket)
 
 # send email with report
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'X'
+mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
 mail.Subject = 'Sales Report'
 mail.HTMLBody = f'''
 <p>Below is the sales report for each store.<p>
