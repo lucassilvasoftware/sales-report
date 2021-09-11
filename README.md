@@ -41,6 +41,6 @@ Software designed to read sales tables and email the sales report containing the
 
 * The software reads the sales table and generates a report automatically sending it by email.
 
-![image](https://user-images.githubusercontent.com/54152996/132928289-37d50a9c-b926-4995-9c8f-6c53057e15ab.png)
+![image](https://user-images.githubusercontent.com/54152996/132929260-a4a68329-562f-4567-9880-0163a3538986.png)
 
-![image](https://user-images.githubusercontent.com/54152996/132928303-e0d80d12-7f3f-428b-bb86-b84af3024720.png)
+![image](https://user-images.githubusercontent.com/54152996/132929269-88c63172-cbaa-4ee2-9c93-a1db95c5320f.png)
