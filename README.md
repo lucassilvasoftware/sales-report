@@ -39,7 +39,7 @@ Software designed to read sales tables and email the sales report containing the
 
 ## Email Template:
 
-* The software reads the sales table and generates a report automatically, sending it by email.
+* The software reads the sales table and generates a report automatically sending it by email.
 
 ![image](https://user-images.githubusercontent.com/54152996/132928289-37d50a9c-b926-4995-9c8f-6c53057e15ab.png)
 
