@@ -8,7 +8,7 @@
 
 > Status: Finished ✅
 
-<p>Software designed to read sales tables and email the sales report containing the billing, the quantity of products sold and the average ticket.</p>
+<p>Software designed to read sales tables and email the sales report containing the billing, the quantity of products sold and the average ticket (multiple stores).</p>
 
 <br>
 
