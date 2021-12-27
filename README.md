@@ -1,8 +1,22 @@
-![git header (3)](https://user-images.githubusercontent.com/54152996/132924461-3322221b-96b3-44ba-90d5-f8afa86d31bb.png)
+<h1 align="center">
+<br>
+  <img src="https://user-images.githubusercontent.com/54152996/147424004-97f91242-c633-48aa-b37e-503ccd554378.gif" alt="Sales Report" width="200">
+<br>
+<br>
+  Sales Report
+</h1>
 
 > Status: Finished ✅
 
-Software designed to read sales tables and email the sales report containing the billing, the quantity of products sold and the average ticket.
+<p>Software designed to read sales tables and email the sales report containing the billing, the quantity of products sold and the average ticket.</p>
+
+<br>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
 ## Technologies Used:
 
