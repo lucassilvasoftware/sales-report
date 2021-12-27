@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://user-images.githubusercontent.com/54152996/147424004-97f91242-c633-48aa-b37e-503ccd554378.gif" alt="Sales Report" width="200">
+  <img src="https://user-images.githubusercontent.com/54152996/147424707-90126e41-2eba-4cb1-a722-b63926dfe1a4.gif" alt="Sales Report" width="200">
 <br>
 <br>
   Sales Report
