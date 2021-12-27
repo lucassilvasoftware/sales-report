@@ -58,3 +58,8 @@
 ![image](https://user-images.githubusercontent.com/54152996/132929260-a4a68329-562f-4567-9880-0163a3538986.png)
 
 ![image](https://user-images.githubusercontent.com/54152996/132929269-88c63172-cbaa-4ee2-9c93-a1db95c5320f.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+
