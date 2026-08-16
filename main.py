@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import win32com.client as win32
 
@@ -26,7 +27,7 @@ print(average_ticket)
 # send email with report
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = '54152996+lucassilvasoftware@users.noreply.github.com'
+mail.To = os.environ.get('REPORT_EMAIL', 'your-email@example.com')
 mail.Subject = 'Sales Report'
 mail.HTMLBody = f'''
 <p>Below is the sales report for each store.<p>
@@ -40,7 +41,7 @@ mail.HTMLBody = f'''
 <p>average ticket of products in each store:</p>
 {average_ticket.to_html(formatters={'Average Ticket': 'R$ {:,.2f}'.format})}
 
-<p>Sales report developed by Lucas Rebouças.</p>
+<p>Sales report developed by Lucas Silva.</p>
 '''
 
 mail.send
